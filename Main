@@ -143,7 +143,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		wait(2)
 		WithelistedFrame.Visible = true
 		OpenGuiGui.Visible = true
-		PayFor50Rbx.Visible = true
+		PayFor50Rbx.Visible = false
 		PremiumFrame.Visible = true
 		FastFist.Visible = true
 		FastPP.Visible = true
