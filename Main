@@ -141,7 +141,7 @@ WhitelistedButton.MouseButton1Down:connect(function()
 	if Whitelistedtext.Text == "HyPanake"  then
 		Whitelistedtext.Text = "Welcome human"
 		wait(2)
-		WithelistedFrame.Visible = true
+		WithelistedFrame.Visible = false
 		OpenGuiGui.Visible = true
 		PayFor50Rbx.Visible = false
 		PremiumFrame.Visible = true
