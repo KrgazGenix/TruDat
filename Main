@@ -173,6 +173,12 @@ WhitelistedButton.MouseButton1Down:connect(function()
 		FastFist.Visible = true
 		FastPP.Visible = true
 		PayFor50Rbx.Visible = false
+	elseif Whitelistedtext.Text == "Quantavio_alt" then
+		Whitelistedtext.Text = "welcome Premium User"
+		wait(2)
+		PayFor50Rbx.Visible = false 
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
 	end
 
 end)
