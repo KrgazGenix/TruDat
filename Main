@@ -158,11 +158,20 @@ WhitelistedButton.TextScaled = true
 WhitelistedButton.TextSize = 14.000
 WhitelistedButton.TextWrapped = true
 WhitelistedButton.MouseButton1Down:connect(function()
-	elseif Whitelistedtext.Text == "ZluqYT25"  then
+	if Whitelistedtext.Text == "ZluqYT25"  then
 		Whitelistedtext.Text = "welcome Premium User"
 		wait(2)
+		PayFor50Rbx.Visible = false 
 		WithelistedFrame.Visible = false
 		OpenGui.Visible = true
+	elseif Whitelistedtext.Text == "HyPanake"  then
+		Whitelistedtext.Text = "welcome Owner User"
+		wait(2)
+		PayFor50Rbx.Visible = false
+		WithelistedFrame.Visible = false
+		OpenGui.Visible = true
+		FastFist.Visible = true
+		FastPP.Visible = true
 		PayFor50Rbx.Visible = false
 	end
 
